@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 80px;
+}
+
+.App-header {
+  height: 300px;
+  padding: 20px;
+  color: white;
+  position: relative;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.loading {
+  height: calc(100% - 190px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: #FBF16F;
+}
+
+.loading span {
+  color: #fff;
+}
+
+.swlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.swcard {
+  width: 20%;
+  min-width: 240px;
+  padding: 16px;
+  margin: 16px;
+  text-align: left;
+  box-shadow: 1px 1px 10px 0 #ccc;
+  position: relative;
+  overflow: hidden;
+  background: #000;
+  color: #FFF;
+  min-height: 240px;
+}
+
+.swcard img {
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.swlist-selector {
+  width: 100%;
+  margin-top: 16px;
+  font-size: 26px;
+}
+
+.swlist-selector select {
+  background: #FFF;
+  font-size: 1em;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poller One', cursive;
+}
